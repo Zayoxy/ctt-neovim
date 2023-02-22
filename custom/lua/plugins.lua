@@ -84,6 +84,7 @@ return packer.startup(function(use)
   use { "folke/tokyonight.nvim"}
   use { "lunarvim/darkplus.nvim"}
   use { "arcticicestudio/nord-vim" }
+  use "EdenEast/nightfox.nvim"
 
   -- LSP and Linting
   use {
@@ -136,7 +137,7 @@ return packer.startup(function(use)
   -- Titus Custom
   use { "ekickx/clipboard-image.nvim" }
   use { "mbbill/undotree" }
-  use { "wakatime/vim-wakatime" }
+  -- use { "wakatime/vim-wakatime" }
   use { "Pocco81/auto-save.nvim" }
   use { "Pocco81/true-zen.nvim" }
 

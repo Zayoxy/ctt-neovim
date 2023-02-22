@@ -48,7 +48,7 @@ vim.notify = function (msg, log_level, _opts)
 -- Colorscheme
 ---
 vim.opt.termguicolors = true
-vim.cmd('colorscheme nord')
+vim.cmd('colorscheme carbonfox')
 
 ---
 -- Titus Custom Markdown HUGO Image Insert
